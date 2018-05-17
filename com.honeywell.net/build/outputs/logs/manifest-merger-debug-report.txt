@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:70-97
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:3:5-6:19
+	android:supportsRtl
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:4:9-35
+	android:label
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:3:46-78
+	android:allowBackup
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml:3:18-45
+uses-sdk
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		ADDED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhujunyu/Downloads/workspace/HoneywellLogistics/com.honeywell.net/src/main/AndroidManifest.xml
