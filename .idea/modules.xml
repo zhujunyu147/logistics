@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HoneywellLogistics.iml" filepath="$PROJECT_DIR$/HoneywellLogistics.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.honeywell.net/com.honeywell.net.iml" filepath="$PROJECT_DIR$/com.honeywell.net/com.honeywell.net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialport/serialport.iml" filepath="$PROJECT_DIR$/serialport/serialport.iml" />
     </modules>
   </component>
 </project>

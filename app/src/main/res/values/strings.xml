@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HoneywellLogistics</string>
+    <string name="no_network">当前网络不可用，请打开可用网络</string>
 </resources>

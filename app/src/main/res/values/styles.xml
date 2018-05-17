@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="divider_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/header_divider_height</item>
+        <item name="android:background">@color/header_divider_color</item>
+    </style>
+
 </resources>
