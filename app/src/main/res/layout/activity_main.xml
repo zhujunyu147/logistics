@@ -12,19 +12,19 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_centerInParent="true"
+            android:gravity="center"
             android:text="中联物流"
             android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/iv_setting"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
             android:layout_centerVertical="true"
-            android:src="@mipmap/ic_info"
-            android:layout_height="wrap_content" />
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_info" />
 
     </RelativeLayout>
 
@@ -32,6 +32,20 @@
     <View
         style="@style/divider_style"
         android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="未连接设备" />
+
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="10dp"
+        android:background="@color/header_divider_color" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,13 +60,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="车辆识别号:" />
+            android:text="车辆二维码信息:" />
 
         <TextView
+            android:id="@+id/tv_car_num"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="TEST000000001" />
+            android:text="" />
 
         <View
             style="@style/divider_style"
@@ -72,7 +87,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="出库" />
+            android:text="" />
+
+        <View
+
+            style="@style/divider_style"
+            android:layout_marginTop="15dp"
+            android:background="@color/header_divider_color" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/response"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽车座位号：" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
         <View
 
@@ -87,10 +136,18 @@
             android:text="状态:" />
 
         <TextView
+            android:id="@+id/request_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="成功" />
+            android:text="" />
+
+        <TextView
+            android:id="@+id/error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="" />
 
         <View
 
@@ -98,13 +155,14 @@
             android:layout_marginTop="15dp"
             android:background="@color/header_divider_color" />
 
+
     </LinearLayout>
 
     <Button
         android:id="@+id/btn_in"
         android:text="入库"
-        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
 
 </LinearLayout>

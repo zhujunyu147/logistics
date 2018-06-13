@@ -11,6 +11,7 @@ import com.honeywell.net.listener.StringTubeListener;
 import org.json.JSONObject;
 
 import honeywell.honeywelllogistics.R;
+import honeywell.honeywelllogistics.bean.DataItem;
 import honeywell.honeywelllogistics.bean.Result;
 import honeywell.honeywelllogistics.interfaces.IResponse;
 import honeywell.honeywelllogistics.utils.Constants;
@@ -51,8 +52,23 @@ public class TubeTask implements StringTubeListener<Result> {
             case Constants.GetDataFlag.HON_OUT:
                 JSONObject json = new JSONObject(water);
                 Boolean isOK = json.optBoolean("success");
+                result.resultCode = Result.RESULT_OK;
+                String message = json.optString("message");
+                result.strArray = new Object[2];
+                result.strArray[0] = message;
+
+                DataItem dataItem = new DataItem();
+                JSONObject jsonData = json.optJSONObject("data");
+                if (jsonData != null) {
+                    dataItem.setGateMessage(jsonData.optString("gateMessage"));
+                    dataItem.setLocDetail(jsonData.optString("locDetail"));
+                    dataItem.setVin(jsonData.optString("vin"));
+                }
+                result.strArray[1] = dataItem;
+
                 if (isOK) {
                     result.resultCode = Result.RESULT_OK;
+
                 } else {
                     result.resultCode = Result.RESULT_ERROR;
                 }

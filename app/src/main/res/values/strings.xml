@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">HoneywellLogistics</string>
+    <string name="app_name">中联道闸扫码</string>
     <string name="no_network">当前网络不可用，请打开可用网络</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
 </resources>

@@ -9,9 +9,9 @@ public class PreferenceUtil {
 
     public static final String TIME_OUT = "6000";
     public static final String HTTP_MODE = "HTTP_MODE";
-    public static final String HTTP_DEFAULT = "HTTP_GET";
+    public static final String HTTP_DEFAULT = "HTTP_POST";
     public static final String URL_ADDRESS = "";
-    public static final String URL_DEFAULT_ADDRESS = "";
+    public static final String URL_DEFAULT_ADDRESS = "http://222.126.229.158:8580/wms-extra-api/WmsInterfaceForHN/inboundCar";
 
     public static SharedPreferences getSharedPreferences(Context context) {
         return context.getSharedPreferences("LOGISTICS", Context.MODE_PRIVATE);

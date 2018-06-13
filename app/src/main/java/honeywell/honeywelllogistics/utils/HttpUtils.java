@@ -27,8 +27,8 @@ import honeywell.honeywelllogistics.task.TubeTask;
 public class HttpUtils {
     private static final String TAG = "HttpUtils";
 
-    public static final int CONN_TIMEOUT = 8 * 1000;
-
+    public static final int CONN_TIMEOUT = 50 * 1000;
+    public static final int SOC_TIMEOUT = 25 * 1000;
     public static final int RECONN_TIMES = 2;
 
     /**
@@ -65,6 +65,7 @@ public class HttpUtils {
         }
         TubeOptions opt = new TubeOptions.Builder()
                 .setConnectionTimeOut(CONN_TIMEOUT)
+                .setSoTimeOut(SOC_TIMEOUT)
                 .setReconnectionTimes(RECONN_TIMES).setPostEntity(entity1)
                 .setHeaders(getHeaderParamsMap(context)).create();
         Log.e("request url", "" + url);
